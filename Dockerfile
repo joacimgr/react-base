@@ -17,4 +17,5 @@ EXPOSE 80:80
 COPY . ./
 
 # start app
-CMD ["npm", "build"]
+CMD ["npm", "run-script build"]
+CMD ["npm", "start"]

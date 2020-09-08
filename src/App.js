@@ -8,13 +8,16 @@ function App() {
       <header className="App-header">
         <a
           className="App-link"
-          href="http://www.levfrisk.com"
+          href="http://www.reddit.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-           Levfrisk
+           reddit
         </a>
       </header>
+      <div className="content">
+        <p>paragraph under header</p>
+      </div>
     </div>
   );
 }

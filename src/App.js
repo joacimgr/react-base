@@ -16,7 +16,10 @@ function App() {
         </a>
       </header>
       <div className="content">
-        <p>paragraph under header</p>
+        <p>content</p>
+      </div>
+      <div className="bottom">
+        <p>Bottom</p>
       </div>
     </div>
   );

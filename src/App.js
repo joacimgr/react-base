@@ -37,7 +37,7 @@ function App() {
         </div>
       </header>
       <div className="content">
-        <p>content</p>
+        <p>JOKK WAS HERE!</p>
         <a
             className="App-link-content"
             href="http://www.netflix.com"

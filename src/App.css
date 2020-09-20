@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  color: whitesmoke;
 }
 
 .App-logo {
@@ -14,15 +15,25 @@
 }
 
 .App-header {
-  background-color: #1b0122;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
+  background-color:rgb(60, 160, 155);
   font-size: calc(77px + 2vmin);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  color: white;
+}
+
+.left-content {
+  width: 33vw;
+}
+
+.center-content {
+  width: 33vw;
+}
+
+.right-content {
+  width: 33vw;
 }
 
 .content {
@@ -47,7 +58,15 @@
   font-size: calc(50px + 2vmin);
 }
 .App-link {
-  color: #61dafb;
+  color: whitesmoke;
+}
+
+a{
+  text-decoration: none;
+}
+
+a:hover{
+  color: #ffccff;
 }
 
 @keyframes App-logo-spin {

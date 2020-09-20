@@ -12,18 +12,40 @@ function App() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              reddit
+              Reddit
             </a>
         </div>
         <div className="center-content">
-          <p>Center</p>
+          <a
+            className="App-link"
+            href="http://www.inet.se"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Inet
+          </a>
         </div>
         <div className="right-content">
-          <p>Right</p>
+          <a
+            className="App-link"
+            href="http://www.google.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Google
+          </a>
         </div>
       </header>
       <div className="content">
         <p>content</p>
+        <a
+            className="App-link-content"
+            href="http://www.netflix.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            netflix
+          </a>
       </div>
       <div className="bottom">
         <p>Bottom</p>

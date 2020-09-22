@@ -1,6 +1,6 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## --- Live preview site: http://94.46.44.191/ ---
+## --- Live preview site: http://jogr.se ---
 
 ## Available Scripts
 

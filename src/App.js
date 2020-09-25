@@ -1,4 +1,6 @@
 import React from 'react';
+import Welcome from './components/Welcome';
+import Clock from './components/Clock';
 import './App.css';
 
 function App() {
@@ -37,7 +39,7 @@ function App() {
         </div>
       </header>
       <div className="content">
-        <p>JOKK WAS HERE!</p>
+        <Clock/>
         <a
             className="App-link-content"
             href="http://www.netflix.com"
@@ -46,6 +48,7 @@ function App() {
           >
             netflix
           </a>
+          <Welcome name='Jokk'/>
       </div>
       <div className="bottom">
         <p>Bottom</p>

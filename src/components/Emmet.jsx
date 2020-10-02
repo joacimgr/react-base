@@ -5,6 +5,10 @@ class Emmet extends React.Component {
         return (
         <div>
           <p>EMMET! FINISHED!</p>
+          <h1>Love</h1>
+          <h1>the</h1>
+          <h1>french</h1>
+          <h1>way</h1>
         </div>
         )
     }

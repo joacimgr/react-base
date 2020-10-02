@@ -11,7 +11,6 @@ class Clock extends React.Component {
     }
 
     componentDidMount() {
-
         this.timerID = setInterval(
             () => this.tick(),
             1000
@@ -23,9 +22,18 @@ class Clock extends React.Component {
     }
 
     getWeek() {
-        let now = new Date();
-        let onejan = new Date(now.getFullYear(), 0, 1);
-        return Math.ceil( (((now.getTime() - onejan.getTime()) / 86400000) + onejan.getDay() + 1) / 7 );
+        // Copy date so don't modify original
+        var d = new Date();
+        d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+        // Set to nearest Thursday: current date + 4 - current day number
+        // Make Sunday's day number 7
+        d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay()||7));
+        // Get first day of year
+        var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+        // Calculate full weeks to nearest Thursday
+        var weekNo = Math.ceil(( ( (d - yearStart) / 86400000) + 1)/7);
+        // Return array of year and week number
+        return weekNo;
     }
 
     getDate() {
@@ -48,8 +56,7 @@ class Clock extends React.Component {
             <div>
                 <h2>{this.state.time.toLocaleTimeString()}</h2>
                 <h4>{this.state.date}</h4>
-                
-                <h5><span>week: </span>{this.state.week}</h5>
+                <h3>{this.state.week}</h3>
             </div>
         )
     }

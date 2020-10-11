@@ -16,20 +16,24 @@
   align-items: center;
   justify-content: center;
   background-color:#1b0122;
-  font-size: calc(33px + 2vmin);
+  font-size: calc(12px + 4vmin);
   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .left-content {
-  width: 10vw;
+  min-width: 15vw;
+  padding-right: 10px;
 }
 
 .center-content {
-  width: 10vw;
+  min-width: 10vw;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .right-content {
-  width: 10vw;
+  min-width: 15vw;
+  padding-left: 10px;
 }
 
 .content {
@@ -55,6 +59,7 @@
 }
 .App-link {
   color: #61dafb;
+
 }
 
 .App-link:hover{

@@ -31,11 +31,11 @@ function App() {
         <div className="right-content">
           <a
             className="App-link"
-            href="http://www.google.com"
+            href="https://www.webhallen.com/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            Google
+            Webhallen
           </a>
         </div>
       </header>

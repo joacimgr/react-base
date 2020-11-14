@@ -53,8 +53,7 @@ function App() {
           
       </div>
       <div className="bottom">
-        <p>Bottom</p>
-        <Emmet></Emmet>
+        <p>Footer</p>
       </div>
     </div>
   );

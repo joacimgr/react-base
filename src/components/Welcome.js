@@ -31,7 +31,10 @@ class Welcome extends React.Component {
         }
          
         console.log("value: ", this.value, "ip: ", this.value)
-        return <p>Hello, {this.props.name} your IP is: {this.value}</p>;
+        return <div>
+            <p>Hello, {this.props.name}</p>
+            <p>your IP is: {this.value}</p> 
+            </div>;
         }
 
 }

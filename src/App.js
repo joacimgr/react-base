@@ -2,7 +2,6 @@ import React from 'react';
 import Welcome from './components/Welcome';
 import Clock from './components/Clock';
 import './App.css';
-import Emmet from './components/Emmet';
 
 function App() {
   return (

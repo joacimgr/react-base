@@ -1,5 +1,4 @@
 import React from 'react';
-import publicIp from 'react-public-ip';
 
 class Welcome extends React.Component {
  

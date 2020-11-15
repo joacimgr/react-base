@@ -79,10 +79,6 @@ a{
   text-decoration: none;
 }
 
-a:hover{
-  
-}
-
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

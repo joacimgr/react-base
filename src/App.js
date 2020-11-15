@@ -49,7 +49,7 @@ function App() {
           >
             netflix
           </a>
-          <Welcome name='Jokk'/>
+          <Welcome name='visitor'/>
           
       </div>
       <div className="bottom">

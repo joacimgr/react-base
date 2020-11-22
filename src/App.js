@@ -40,16 +40,7 @@ function App() {
       </header>
       <div className="content">
         <Clock/>
-        <a
-            className="App-link-content"
-            href="http://www.netflix.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            netflix
-          </a>
-          <Welcome name='visitor'/>
-          
+        <Welcome name='visitor'/>
       </div>
       <div className="bottom">
         <p>Footer</p>

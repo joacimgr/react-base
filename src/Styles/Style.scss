@@ -1,0 +1,19 @@
+$blue: #61dafb;
+$violet: #1b0122;
+$black: #000;
+
+
+.nav-link {
+    color: $blue;
+    
+}
+.nav-link:hover {
+    filter: brightness(110%);
+}
+
+.no-bullet-points {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0; /* Remove margins */
+    
+}

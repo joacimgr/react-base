@@ -3,6 +3,7 @@ import Welcome from './components/Welcome';
 import Clock from './components/Clock';
 import Shape from './components/Shape/Shape'
 import './App.css';
+import RouteTest from './components/RouteTest';
 
 function App() {
   return (
@@ -45,7 +46,7 @@ function App() {
         <Shape shape="rect"/>
       </div>
       <div className="bottom">
-        <p>Footer</p>
+        <RouteTest></RouteTest>
       </div>
     </div>
   );

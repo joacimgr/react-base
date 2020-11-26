@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Shape.scss';
+import './../../Styles/Shape.scss';
 
 export default class Shape extends Component {
     

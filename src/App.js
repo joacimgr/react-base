@@ -1,6 +1,7 @@
 import React from 'react';
 import Welcome from './components/Welcome';
 import Clock from './components/Clock';
+import Shape from './components/Shape/Shape'
 import './App.css';
 
 function App() {
@@ -40,16 +41,8 @@ function App() {
       </header>
       <div className="content">
         <Clock/>
-        <a
-            className="App-link-content"
-            href="http://www.netflix.com"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            netflix
-          </a>
-          <Welcome name='visitor'/>
-          
+        <Welcome name='Jokk'/>
+        <Shape shape="rect"/>
       </div>
       <div className="bottom">
         <p>Footer</p>

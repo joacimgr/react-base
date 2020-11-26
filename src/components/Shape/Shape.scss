@@ -1,0 +1,28 @@
+.btn {
+    min-width: 170px;
+    min-height: 50px;
+    background-color: black;
+    margin-bottom: 50px;
+    padding-bottom: 8px;
+    color: white;
+    font-size: 44px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.rect {
+    border-radius: 400px;
+}
+
+.circle {
+    border-radius: 6px;
+}
+
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

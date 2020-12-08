@@ -7,8 +7,8 @@ export default class Shape extends Component {
 
     constructor(props) {
         super(props)
-        console.log("constructor...");
-        console.log("const props.shape: ", this.props.shape);
+        //console.log("constructor...");
+        //console.log("const props.shape: ", this.props.shape);
         this.state = {
              shape: props.shape,
              text: "rect",
@@ -17,9 +17,8 @@ export default class Shape extends Component {
     }
     
     componentDidMount() {
-        console.log("did mount..");
+        //console.log("did mount..");
         this.setState((state, props) => { return {  }})
-        
     }
 
     handleClick = () => {
@@ -39,8 +38,8 @@ export default class Shape extends Component {
     } 
     
     render() {
-        console.log("render() -state- Shape: ", this.state.shape);
-        console.log("render() -state- Text: ", this.state.text);
+        //console.log("render() -state- Shape: ", this.state.shape);
+        //console.log("render() -state- Text: ", this.state.text);
         return (
             <div>
                 {this.state.element}

@@ -12,7 +12,7 @@ export default class Shape extends Component {
         this.state = {
              shape: props.shape,
              text: "rect",
-             element: <div className="btn rect unselectable" onClick={this.handleClick}>text</div>
+             element: <div className="btn rect unselectable" onClick={this.handleClick}>button</div>
         }
     }
     

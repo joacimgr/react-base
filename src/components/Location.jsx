@@ -67,7 +67,6 @@ export class Location extends Component {
         return (
             <div>
                 {this.state.location}
-                <p>Location set to: </p>{this.state.available}
             </div>
         )
     }

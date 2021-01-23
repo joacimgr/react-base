@@ -3,6 +3,7 @@ import Clock from './components/Clock';
 import Shape from './components/Shape/Shape'
 import './App.css';
 import Location from './components/Location';
+import Button from './components/Shape/Button';
 
 function App() {
   return (
@@ -42,9 +43,10 @@ function App() {
       <div className="content">
         <Clock/>
         <Location/>
-        <Shape shape="rect"/>
       </div>
       <div className="bottom">
+        <Shape shape="rect"/>
+        <Button></Button>
       </div>
     </div>
   );

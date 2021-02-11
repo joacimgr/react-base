@@ -7,8 +7,8 @@ export default class Button extends Component {
         super(props);
         this.state = {
             color: "white",
-            width: 1001,
-            height: 1001,
+            width: 250,
+            height: 150,
             array: [1,2,3,4],
         };
     }

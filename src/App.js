@@ -1,6 +1,7 @@
 import React from 'react';
 import Clock from './components/Clock';
-import Shape from './components/Shape/Shape'
+import Shape from './components/Shape/Shape';
+import RouteTest from './components/RouteTest';
 import './App.css';
 import Location from './components/Location';
 
@@ -42,9 +43,9 @@ function App() {
       <div className="content">
         <Clock/>
         <Location/>
-        <Shape shape="rect"/>
       </div>
       <div className="bottom">
+        <RouteTest/>
       </div>
     </div>
   );

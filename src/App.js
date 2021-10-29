@@ -41,7 +41,6 @@ function App() {
       </header>
       <div className="content">
         <Clock/>
-        <Location/>
       </div>
       <div className="bottom">
         <RouteTest/>

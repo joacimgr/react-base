@@ -13,7 +13,7 @@ export class Location extends Component {
     
     componentDidMount() {
         
-        if ("geolocation" in navigator) {
+        /*if ("geolocation" in navigator) {
             console.log("Available");
             this.setState((state, props) => { return { available: <p>true.</p> }})
             
@@ -36,11 +36,11 @@ export class Location extends Component {
           });
 
           console.log("position from call : ", posse);
-          this.makeLocationCall(this.state.lon, this.state.lat);
+          this.makeLocationCall(this.state.lon, this.state.lat);*/
     }
     
     makeLocationCall(lat, lon){
-        // read all entities
+       /* // read all entities
         
         var baseurl = "http://open.mapquestapi.com/geocoding/v1/reverse";
         var finalurl = baseurl + "?location=" + lon + "," + lat + "&" +
@@ -78,7 +78,7 @@ export class Location extends Component {
             console.log("response location: ", response.results[0].locations[0].adminArea5);
         })
         .catch(err => { console.log("Error: ", err); 
-        });
+        });*/
     }
 
     render() {

@@ -1,6 +1,5 @@
 import React from 'react';
 import Clock from './components/Clock';
-import Shape from './components/Shape/Shape';
 import RouteTest from './components/RouteTest';
 import './App.css';
 import Location from './components/Location';
@@ -32,8 +31,8 @@ function App() {
         <div className="right-content">
           <a
             className="App-link"
-            href="https://www.webhallen.com/"
-            target="_blank"
+            href="https://www.webhallen.com/" //webhallen!
+            target="_blank" 
             rel="noopener noreferrer"
           >
             Webhallen

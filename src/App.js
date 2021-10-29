@@ -2,7 +2,6 @@ import React from 'react';
 import Clock from './components/Clock';
 import RouteTest from './components/RouteTest';
 import './App.css';
-import Location from './components/Location';
 
 function App() {
   return (
